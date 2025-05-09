@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolandırıcılık Uyarısı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .warning-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .warning-header {
+            background-color: #dc3545;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .warning-content {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        
+        @media (min-width: 768px) {
+            .warning-content {
+                flex-direction: row;
+            }
+        }
+        
+        .warning-text {
+            flex: 1;
+            padding: 10px;
+        }
+        
+        .warning-images {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 10px;
+        }
+        
+        .warning-image {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .warning-image:hover {
+            transform: scale(1.02);
+        }
+        
+        .warning-footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f1f1;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .szofren {
+            font-weight: bold;
+            color: #dc3545;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .highlight {
+            font-weight: bold;
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="warning-container">
+        <div class="warning-header">
+            DİKKAT! DOLANDIRICILIK UYARISI
+        </div>
+        <div class="warning-content">
+            <div class="warning-text">
+                <div class="szofren">S İ Z O F R E N</div>
+                <p>Selam arkadaşlar, bu paylaşımı yapma sebebim sizleri olası bir dolandırıcılığa karşı uyarmak. <span class="highlight">@uvworx</span> kullanıcı adına sahip şahıs, sosyal medya hikayelerinde sahte hesap ekran görüntüleri paylaşarak güven kazanıyor ve ardından çeşitli bahanelerle insanlardan para talep ediyor. Parayı aldıktan sonra ise kişileri engelliyor ve iletişim kurmayı imkansız hale getiriyor.</p>
+                
+                <p>Bu şahıs, masum insanların iyi niyetini suistimal ederek maddi kazanç sağlamaya çalışıyor. Sizden ricam, bu tür kişilere kesinlikle güvenmeyin ve çevrenizi de bu konuda bilinçlendirin. Eğer siz de benzer bir durumla karşılaştıysanız, mutlaka ilgili platforma şikayet edin ve gerekirse hukuki yollara başvurun.</p>
+                
+                <p>Lütfen bu tarz dolandırıcılara prim vermeyin, paylaşarak daha fazla kişinin zarar görmesini engelleyin!</p>
+                
+                <p><strong>By: @n4rk0t1ks</strong></p>
+            </div>
+            <div class="warning-images">
+                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.15752-9/495073886_727343123427353_5448503319085736973_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=pip5iWjxlYAQ7kNvwGJO605&_nc_oc=Adk_qrP4-Kropjijz0NfGgPQ3JUAUxaS-nf01oQi5Fq6Gf3XUzOTY5wAahlteNNWWfEx0qxa8feWGz8JA4rJjTsR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-muc2-1.xx&oh=03_Q7cD2QH5gb89TZCmbRCDOLrjuvbPezDYx7WmTfh8RYeYSjvlmg&oe=6845C74A" alt="Dolandırıcılık kanıtı 1" class="warning-image">
+                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.15752-9/494831873_2110381799479799_1909060378525847844_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Q2v8yo7kqzsQ7kNvwGAN7af&_nc_oc=AdlmNo07OKeeVFEClhIM8ipwuBfqgfzTmgUmbZ5EBRVrh4JUpvj3j1cKM_abWMg7i8dpOo3IHoGDrxO0hvyqFaXd&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-muc2-1.xx&oh=03_Q7cD2QG9Tzpav1scxHYeo15a3c8RyYlvDoIRZiwkwyuXhud0uA&oe=6845DBFA" alt="Dolandırıcılık kanıtı 2" class="warning-image">
+            </div>
+        </div>
+        <div class="warning-footer">
+            Bu uyarıyı paylaşarak başkalarının dolandırılmasını önleyebilirsiniz.
+        </div>
+    </div>
+
+    <script>
+        // Sayfa yüklendiğinde bir uyarı gösterelim
+        window.onload = function() {
+            alert('DİKKAT! Bu bir dolandırıcılık uyarısıdır. Lütfen içeriği dikkatlice okuyunuz.');
+            
+            // Görsellere tıklanınca büyütme efekti ekleyelim
+            const images = document.querySelectorAll('.warning-image');
+            images.forEach(img => {
+                img.addEventListener('click', function() {
+                    if (this.style.transform === 'scale(1.5)') {
+                        this.style.transform = 'scale(1)';
+                        this.style.zIndex = '0';
+                    } else {
+                        this.style.transform = 'scale(1.5)';
+                        this.style.zIndex = '10';
+                        this.style.position = 'relative';
+                    }
+                });
+            });
+        };
+    </script>
+</body>
+</html>
